@@ -1,0 +1,128 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: #CCCCCC;
+  padding: 20px 0;
+}
+
+img:hover {
+  transition: 1s all;
+  transform: rotate(360deg);
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #262626;
+  text-decoration: underline;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, legend {
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 10px;
+}
+
+.input-padrao, select {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #262626;
+  background-color: #EFEFEF;
+}
+
+.enviar {
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 40%;
+  border: none;
+  border-radius: 8px;
+  background: #262626;
+  color: white;
+  transition: .3s all;
+  cursor: pointer;
+}
+
+.enviar:active {
+  border: none;
+  border-radius: 8px;
+  background: #363636;
+  color: #FFFFFF;
+}
+
+.enviar:hover {
+  border: none;
+  border-radius: 8px;
+  background: #363636;
+  color: #FFFFFF;
+  transform: scale(1.05);
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #555555;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background: url("imgs/bg.jpg");
+  padding: 40px 0;
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: 5px 80px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 12px;
+  margin: 20px 0 0;
+}

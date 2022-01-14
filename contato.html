@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contato - Barbearia Alura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+  <header>
+    <div class="caixa">
+      <h1><img src="imgs/logo.png" alt="Logo da Barbearia Alura"></img></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <form>
+      <label for="nomeCompleto">Nome completo:</label>
+      <input required type="text" id="nomeCompleto" placeholder="Informe o nome completo" class="input-padrao">
+
+      <label for="email">E-mail:</label>
+      <input required type="email" id="email" placeholder="Informe o e-mail" class="input-padrao">
+
+      <label for="telefone">Telefone:</label>
+      <input required type="tel" id="telefone" placeholder="(XX) XXXX-XXXX" class="input-padrao">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea required rows="10" cols="80" placeholder="Escreva sua mensagem" class="input-padrao"></textarea>
+
+      <fieldset>
+        <legend>Como prefere ser contatado?</legend>
+        <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato">E-mail</label>
+        <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contato">Telefone</label>
+        <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" checked name="contato">Whastapp</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferência de horário para atendimento:</legend>
+        <select name="horario">
+          <option value="manha">Manhã</option>
+          <option value="tarde">Tarde</option>
+          <option value="noite">Noite</option>
+        </select>
+      </fieldset>
+
+
+      <label for="novidades" class="checkbox"><input type="checkbox" name="novidades" value="novidades">Gostaria de receber novidades por E-mail.</label>
+
+      <input class="enviar" type="submit">
+
+    </form>
+
+    <table>
+      <thead>
+        <th>Dia</th>
+        <th>Horário</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2ª feira</td>
+          <td>8h - 20h</td>
+        </tr>
+        <tr>
+          <td>4ª feira</td>
+          <td>8h - 20h</td>
+        </tr>
+        <tr>
+          <td>6ª feira</td>
+          <td>8h - 20h</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+<footer>
+  <img src="imgs/logo-branco.png" alt="Logo da Barbearia Alura">
+  <p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
+</footer>
+
+</body>
+
+</html>
